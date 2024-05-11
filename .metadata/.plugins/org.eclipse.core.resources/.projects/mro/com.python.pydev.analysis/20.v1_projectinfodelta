@@ -1,0 +1,9 @@
+INSTUPmro_pm.asset
+/home/jonathan/Documentos/workspace/odoo9/mro/mro_pm/asset.py
+INFOS:&&1|1|2|0|3|26|7&&3|4|2|1|3|27|5&&3|5|2|1|3|30|5&&2|6|2|1|3|32|9
+_inherit=4
+_columns=5
+asset_asset=1
+action_view_rules=6
+mro_pm.asset=2
+/home/jonathan/Documentos/workspace/odoo9/mro/mro_pm/asset.py=3

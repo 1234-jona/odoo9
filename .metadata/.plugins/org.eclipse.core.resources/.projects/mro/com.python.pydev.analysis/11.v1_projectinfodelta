@@ -1,0 +1,12 @@
+INSTUPmro_cbm.mro
+/home/jonathan/Documentos/workspace/odoo9/mro/mro_cbm/mro.py
+INFOS:&&1|1|2|0|3|27|7&&3|4|2|1|3|28|5&&3|5|2|1|3|35|5&&3|6|2|1|3|39|5&&2|7|2|1|3|41|9&&2|8|2|1|3|52|9&&1|9|2|0|3|109|7&&3|4|2|9|3|110|5&&3|5|2|9|3|116|5&&3|6|2|9|3|120|5
+_inherit=4
+planning_strategy_2=8
+replan_cbm=7
+mro_order=1
+/home/jonathan/Documentos/workspace/odoo9/mro/mro_cbm/mro.py=3
+_columns=6
+mro_task=9
+MAINTENANCE_TYPE_SELECTION=5
+mro_cbm.mro=2

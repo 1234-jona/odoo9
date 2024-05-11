@@ -1,0 +1,122 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* dimabru_medical_record
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-20 15:48+0000\n"
+"PO-Revision-Date: 2024-03-20 15:48+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: dimabru_medical_record
+#: model:ir.model.fields,field_description:dimabru_medical_record.field_medical_record_address
+msgid "Address"
+msgstr "Dirección"
+
+#. module: dimabru_medical_record
+#: model:ir.model.fields,field_description:dimabru_medical_record.field_medical_record_age
+msgid "Age"
+msgstr "Edad"
+
+#. module: dimabru_medical_record
+#: model:ir.model.fields,field_description:dimabru_medical_record.field_medical_record_create_uid
+msgid "Created by"
+msgstr "Creado por:"
+
+#. module: dimabru_medical_record
+#: model:ir.model.fields,field_description:dimabru_medical_record.field_medical_record_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: dimabru_medical_record
+#: model:ir.model.fields,field_description:dimabru_medical_record.field_medical_record_display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: dimabru_medical_record
+#: selection:medical.record,gender:0
+msgid "Female"
+msgstr "Femenino"
+
+#. module: dimabru_medical_record
+#: model:ir.model.fields,field_description:dimabru_medical_record.field_medical_record_gender
+msgid "Gender"
+msgstr "Sexo"
+
+#. module: dimabru_medical_record
+#: model:ir.model.fields,field_description:dimabru_medical_record.field_medical_record_id
+msgid "ID"
+msgstr "ID"
+
+#. module: dimabru_medical_record
+#: model:ir.model.fields,field_description:dimabru_medical_record.field_medical_record___last_update
+msgid "Last Modified on"
+msgstr "Fecha de modificación"
+
+#. module: dimabru_medical_record
+#: model:ir.model.fields,field_description:dimabru_medical_record.field_medical_record_write_uid
+msgid "Last Updated by"
+msgstr "Ultima Actualización por"
+
+#. module: dimabru_medical_record
+#: model:ir.model.fields,field_description:dimabru_medical_record.field_medical_record_write_date
+msgid "Last Updated on"
+msgstr "Actualizado en"
+
+#. module: dimabru_medical_record
+#: selection:medical.record,gender:0
+msgid "Male"
+msgstr "Masculino"
+
+#. module: dimabru_medical_record
+#: model:ir.ui.view,arch_db:dimabru_medical_record.view_medical_record_form
+msgid "Medical Record"
+msgstr "Historial médico"
+
+#. module: dimabru_medical_record
+#: model:ir.actions.act_window,name:dimabru_medical_record.action_medical_record_list
+msgid "Medical Records"
+msgstr "Historial médico"
+
+#. module: dimabru_medical_record
+#: model:ir.module.category,name:dimabru_medical_record.category_dimabru_medical_record
+msgid "Medico"
+msgstr "Medico"
+
+#. module: dimabru_medical_record
+#: model:ir.model.fields,field_description:dimabru_medical_record.field_medical_record_name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: dimabru_medical_record
+#: selection:medical.record,gender:0
+msgid "Other"
+msgstr "Otro"
+
+#. module: dimabru_medical_record
+#: model:ir.ui.menu,name:dimabru_medical_record.menu_patient_file
+msgid "Patient file"
+msgstr "Expediente del paciente"
+
+#. module: dimabru_medical_record
+#: model:ir.model.fields,field_description:dimabru_medical_record.field_medical_record_phone
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: dimabru_medical_record
+#: model:res.groups,name:dimabru_medical_record.group_medical_record
+msgid "Usuario "
+msgstr "Usuario "
+
+#. module: dimabru_medical_record
+#: model:ir.model,name:dimabru_medical_record.model_medical_record
+msgid "medical.record"
+msgstr "medical.record"
+

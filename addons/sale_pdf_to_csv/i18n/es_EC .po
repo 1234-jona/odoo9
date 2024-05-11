@@ -1,0 +1,139 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* sale_pdf_to_csv
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-27 14:17+0000\n"
+"PO-Revision-Date: 2024-02-27 14:17+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sale_pdf_to_csv
+#: model:ir.model.fields,field_description:sale_pdf_to_csv.field_base_file_report_file
+#: model:ir.model.fields,field_description:sale_pdf_to_csv.field_base_file_report_filename
+#: model:ir.ui.view,arch_db:sale_pdf_to_csv.view_sale_report_form
+msgid "Archivo generado"
+msgstr "Archivo generado"
+
+#. module: sale_pdf_to_csv
+#: model:ir.ui.view,arch_db:sale_pdf_to_csv.wizard_sale_pdf_to_csv
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: sale_pdf_to_csv
+#: model:ir.ui.view,arch_db:sale_pdf_to_csv.view_sale_report_form
+msgid "Cerrar"
+msgstr "Cerrar"
+
+#. module: sale_pdf_to_csv
+#: model:ir.ui.view,arch_db:sale_pdf_to_csv.wizard_sale_pdf_to_csv
+msgid "Convert to CSV"
+msgstr "Convertir a formato CSV"
+
+#. module: sale_pdf_to_csv
+#: model:ir.model.fields,field_description:sale_pdf_to_csv.field_base_file_report_create_uid
+#: model:ir.model.fields,field_description:sale_pdf_to_csv.field_sale_pdf_to_csv_wizard_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: sale_pdf_to_csv
+#: model:ir.model.fields,field_description:sale_pdf_to_csv.field_base_file_report_create_date
+#: model:ir.model.fields,field_description:sale_pdf_to_csv.field_sale_pdf_to_csv_wizard_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: sale_pdf_to_csv
+#: model:ir.model.fields,field_description:sale_pdf_to_csv.field_base_file_report_display_name
+#: model:ir.model.fields,field_description:sale_pdf_to_csv.field_sale_pdf_to_csv_wizard_display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: sale_pdf_to_csv
+#: code:addons/sale_pdf_to_csv/wizard/pdf_to_csv_wizard.py:34
+#, python-format
+msgid "Error when trying to connect to external API, while converting PDF"
+msgstr "Error al intentar conectarse a una API externa al convertir PDF"
+
+#. module: sale_pdf_to_csv
+#: model:ir.model.fields,field_description:sale_pdf_to_csv.field_sale_pdf_to_csv_wizard_pdf_file
+msgid "File to transform"
+msgstr "Archivo para transformar"
+
+#. module: sale_pdf_to_csv
+#: model:ir.model.fields,field_description:sale_pdf_to_csv.field_base_file_report_id
+#: model:ir.model.fields,field_description:sale_pdf_to_csv.field_sale_pdf_to_csv_wizard_id
+msgid "ID"
+msgstr "ID"
+
+#. module: sale_pdf_to_csv
+#: model:ir.model,name:sale_pdf_to_csv.model_base_file_report
+msgid "In-memory model to temporarily store the files generated when loading a report.\n"
+"                    We generate a new file that can be (xls, xml, etc.) in this model we are going to create csv"
+msgstr "Modelo en memoria para almacenar temporalmente los archivos generados al cargar un informe..\n"
+"                    Generamos un nuevo archivo que puede ser (xls, xml, etc.) en este modelo vamos a crear csv"
+
+#. module: sale_pdf_to_csv
+#: model:ir.model.fields,field_description:sale_pdf_to_csv.field_base_file_report___last_update
+#: model:ir.model.fields,field_description:sale_pdf_to_csv.field_sale_pdf_to_csv_wizard___last_update
+msgid "Last Modified on"
+msgstr "Fecha de modificación"
+
+#. module: sale_pdf_to_csv
+#: model:ir.model.fields,field_description:sale_pdf_to_csv.field_base_file_report_write_uid
+#: model:ir.model.fields,field_description:sale_pdf_to_csv.field_sale_pdf_to_csv_wizard_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: sale_pdf_to_csv
+#: model:ir.model.fields,field_description:sale_pdf_to_csv.field_base_file_report_write_date
+#: model:ir.model.fields,field_description:sale_pdf_to_csv.field_sale_pdf_to_csv_wizard_write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: sale_pdf_to_csv
+#: model:ir.model,name:sale_pdf_to_csv.model_sale_pdf_to_csv_wizard
+msgid "Model to load a PDF File an convert into a CSV File using an external API"
+msgstr "Modelo para cargar un archivo PDF y convertirlo en un archivo CSV usando una API externa"
+
+#. module: sale_pdf_to_csv
+#: model:ir.ui.menu,name:sale_pdf_to_csv.menu_main_pdf
+msgid "PDF"
+msgstr "PDF"
+
+#. module: sale_pdf_to_csv
+#: model:ir.actions.act_window,name:sale_pdf_to_csv.action_wizard_sale_pdf_to_csv
+#: model:ir.ui.menu,name:sale_pdf_to_csv.menu_pdf_to_csv
+msgid "PDF a CSV"
+msgstr "PDF a CSV"
+
+#. module: sale_pdf_to_csv
+#: model:ir.ui.view,arch_db:sale_pdf_to_csv.wizard_sale_pdf_to_csv
+msgid "Selecciona el archivo de tipo PDF"
+msgstr "Selecciona el archivo de tipo PDF"
+
+#. module: sale_pdf_to_csv
+#: model:ir.ui.view,arch_db:sale_pdf_to_csv.wizard_sale_pdf_to_csv
+msgid "Subir archivo PDF"
+msgstr "Subir archivo PDF"
+
+#. module: sale_pdf_to_csv
+#: model:ir.ui.view,arch_db:sale_pdf_to_csv.wizard_sale_pdf_to_csv
+msgid "Select the PDF file type"
+msgstr "Seleccione el archivo PDF"
+
+#. module: sale_pdf_to_csv
+#: model:ir.ui.view,arch_db:sale_pdf_to_csv.wizard_sale_pdf_to_csv
+msgid "Generated file"
+msgstr "Archivo generado"
+
+#. module: sale_pdf_to_csv
+#: model:ir.ui.view,arch_db:sale_pdf_to_csv.wizard_sale_pdf_to_csv
+msgid "Close"
+msgstr "Cerrar"

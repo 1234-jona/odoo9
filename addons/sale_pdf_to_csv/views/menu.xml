@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    
+        <menuitem id="menu_main_pdf"
+                  name="PDF"
+                  parent="base.menu_base_partner"
+                  sequence="6"/>
+        <menuitem id="menu_pdf_to_csv"
+                  name="PDF in CSV format"
+                  action="action_wizard_sale_pdf_to_csv"
+                  parent="menu_main_pdf"
+                  sequence="1"/>
+            
+    </data>
+</openerp>

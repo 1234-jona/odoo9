@@ -1,0 +1,10 @@
+INSTUPmro.wizard.reject
+/home/jonathan/Documentos/workspace/odoo9/mro/mro/wizard/reject.py
+INFOS:&&1|1|2|0|3|25|7&&3|4|2|1|3|26|5&&3|5|2|1|3|27|5&&3|6|2|1|3|31|5&&2|7|2|1|3|33|9
+/home/jonathan/Documentos/workspace/odoo9/mro/mro/wizard/reject.py=3
+_name=4
+_columns=6
+mro_request_reject=1
+reject_request=7
+mro.wizard.reject=2
+_description=5

@@ -1,0 +1,258 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* dimabru_contacts
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-19 19:44+0000\n"
+"PO-Revision-Date: 2024-03-19 19:44+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: dimabru_contacts
+#: selection:furniture,type:0
+msgid "Bathroom furniture"
+msgstr "Muebles de baño"
+
+#. module: dimabru_contacts
+#: selection:furniture,type:0
+msgid "Bedroom furniture"
+msgstr "Muebles de dormitorio"
+
+#. module: dimabru_contacts
+#: model:ir.ui.view,arch_db:dimabru_contacts.res_partner_inherit_dimabru_contacts
+msgid "Client Documentation"
+msgstr "Documentacion Cliente"
+
+#. module: dimabru_contacts
+#: selection:res.partner,type_document:0
+msgid "Closing"
+msgstr "Clausura"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_furniture_contact_id
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_res_partner_contract
+msgid "Contract"
+msgstr "Contrato"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_furniture_create_uid
+msgid "Created by"
+msgstr "Creado por:"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_furniture_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: dimabru_contacts
+#: selection:res.partner,state:0
+msgid "Current"
+msgstr "Actual"
+
+#. module: dimabru_contacts
+#: model:ir.ui.view,arch_db:dimabru_contacts.res_partner_inherit_dimabru_contacts
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: dimabru_contacts
+#: selection:furniture,state_furniture:0
+msgid "Damaged"
+msgstr "Dañado"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_res_partner_date_document
+msgid "Date document"
+msgstr "Fecha documento"
+
+#. module: dimabru_contacts
+#: selection:res.partner,state:0
+msgid "Defeated"
+msgstr "Derrotado"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_res_partner_description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_furniture_display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_res_partner_document
+msgid "Document"
+msgstr "Documento"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_res_partner_document_description
+msgid "Document description"
+msgstr "Descripcion de documento"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_res_partner_end_date
+msgid "Ending date"
+msgstr "Fecha de finalización"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_furniture_delivery_date
+msgid "Estimated delivery date"
+msgstr "Fecha estimada "
+
+#. module: dimabru_contacts
+#: selection:res.partner,type_agreement:0
+msgid "Extra visibility"
+msgstr "Visibilidad adicional"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_res_partner_furniture_ids
+#: model:ir.ui.view,arch_db:dimabru_contacts.res_partner_inherit_dimabru_contacts
+msgid "Furniture"
+msgstr "Muebles"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_furniture_state_furniture
+msgid "Furniture State"
+msgstr "Estado del mueble"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_furniture_description
+msgid "Furniture description"
+msgstr "Descripcion del mueble"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_res_partner_check_push
+msgid "Has or Has not"
+msgstr "Tiene o no tiene"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_furniture_id
+msgid "ID"
+msgstr "ID"
+
+#. module: dimabru_contacts
+#: selection:furniture,type:0
+msgid "Kitchen furniture"
+msgstr "Mueble de cocina"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_furniture___last_update
+msgid "Last Modified on"
+msgstr "Fecha de modificación"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_furniture_write_uid
+msgid "Last Updated by"
+msgstr "Ultima Actualización por"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_furniture_write_date
+msgid "Last Updated on"
+msgstr "Actualizado en"
+
+#. module: dimabru_contacts
+#: selection:furniture,state_furniture:0
+msgid "New"
+msgstr "Nuevo"
+
+#. module: dimabru_contacts
+#: selection:furniture,type:0
+msgid "Office furniture"
+msgstr "Mueble de oficina"
+
+#. module: dimabru_contacts
+#: selection:res.partner,type_document:0
+msgid "Opening"
+msgstr "Apertura"
+
+#. module: dimabru_contacts
+#: model:ir.model,name:dimabru_contacts.model_res_partner
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_furniture_photo
+msgid "Photo of the furniture"
+msgstr "Foto del mueble"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_furniture_amount
+msgid "Quantity of furniture"
+msgstr "Cantidad de muebles"
+
+#. module: dimabru_contacts
+#: selection:res.partner,type_agreement:0
+msgid "Reduction"
+msgstr "Reducción"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_furniture_retirement_date
+msgid "Retirement date"
+msgstr "Fecha de retiro"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_res_partner_start_date
+msgid "Start date"
+msgstr "Fecha de inicio"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_res_partner_state
+msgid "State"
+msgstr "Estado"
+
+#. module: dimabru_contacts
+#: selection:furniture,type:0
+msgid "Terrace furniture"
+msgstr "Muebles de terraza"
+
+#. module: dimabru_contacts
+#: model:ir.ui.view,arch_db:dimabru_contacts.res_partner_inherit_dimabru_contacts
+msgid "Trade agreements"
+msgstr "Acuerdos comerciales"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_res_partner_type_agreement
+msgid "Type of Agreement"
+msgstr "Tipo de acuerdo"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_res_partner_type_document
+msgid "Type of Customer Documentation"
+msgstr "Tipo de documentación del cliente"
+
+#. module: dimabru_contacts
+#: model:ir.model.fields,field_description:dimabru_contacts.field_furniture_type
+msgid "Type of Furniture"
+msgstr "Tipo de mueble"
+
+#. module: dimabru_contacts
+#: selection:res.partner,type_document:0
+msgid "Update"
+msgstr "Actualizar"
+
+#. module: dimabru_contacts
+#: selection:furniture,state_furniture:0
+msgid "Used"
+msgstr "Usado"
+
+#. module: dimabru_contacts
+#: selection:res.partner,type_agreement:0
+msgid "Wholesale plan"
+msgstr "Plan mayorista"
+
+#. module: dimabru_contacts
+#: model:ir.model,name:dimabru_contacts.model_furniture
+msgid "furniture"
+msgstr "Mueble"
+

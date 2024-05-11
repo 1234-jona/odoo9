@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="view_detail_history_tree" model="ir.ui.view">
+            <field name="name">detail.history.tree</field>
+            <field name="model">detail.history</field>
+            <field name="arch" type="xml">
+                <tree string="Detail Histories">
+                    <field name="consultation_date"/>
+                    <field name="symptoms"/>
+                    <field name="diagnosis"/>
+                    <field name="prescriptions"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_detail_history_form" model="ir.ui.view">
+            <field name="name">detail.history.form</field>
+            <field name="model">detail.history</field>
+            <field name="arch" type="xml">
+                <form string="Detail Histories">
+                    <sheet>
+                        <group>	
+                        	<group>
+                        		<field name="consultation_date"/>
+		                    	<field name="symptoms"/>
+		                    	<field name="diagnosis"/>
+		                    	<field name="prescriptions"/>
+                        	</group>
+                           	<group>
+                           		<group>
+                           			<field name="section_detail_history_ids"/>
+                           		</group>
+                           	</group> 
+                           	<group>
+                           		<group>
+                           			<field name="question_detail_history_ids"/>
+                           		</group>
+                           		<group>
+ 
+                           		</group>
+                           	</group>      
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+        <record id="action_detail_history_list" model="ir.actions.act_window">
+            <field name="name">Detail History</field>
+            <field name="res_model">detail.history</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+
+        <menuitem id="menu_detail_history"
+                  name="Detail History"
+                  parent="menu_patient_file"
+                  sequence="1"/>
+        <menuitem id="menu_medical_record"
+                  name="Medical Record"
+                  parent="menu_detail_history"
+                  action="action_history_list"
+                  sequence="2"/>
+        <menuitem id="menu_detail_history_list"
+                  name="Detail History"
+                  parent="menu_detail_history"
+                  sequence="3"
+                  action="action_detail_history_list"/>      
+        <menuitem id="menu_section"
+                  name="Section"
+                  parent="menu_detail_history"
+                  sequence="4"
+                  action="action_section_list"/>
+        <menuitem id="menu_question"
+                  name="Question"
+                  parent="menu_detail_history"
+                  sequence="5"
+                  action="action_question_list"/>
+        
+    </data>
+</odoo>

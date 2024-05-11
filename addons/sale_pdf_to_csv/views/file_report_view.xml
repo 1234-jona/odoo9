@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<openerp>
+    <data>
+
+        <record model="ir.ui.view" id="view_sale_report_form">
+            <field name="name">base.file.report.form</field>
+            <field name="model">base.file.report</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Generated file" version="7.0">
+                    <group colspan="4" col="2">
+                        <field name="filename" invisible="1"/>
+                        <field name="file" filename="filename"/>
+                    </group>
+                    <footer>
+                        <button special="cancel" string="Close" class="oe_highlight"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+        
+    </data>
+</openerp>

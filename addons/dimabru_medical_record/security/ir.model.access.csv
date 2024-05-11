@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_medical_user,access medical,model_history,group_medical_record,1,1,1,1
+access_detail_user,access detail,model_detail_history,group_medical_record,1,1,1,1
+access_section_user,access section,model_section,group_medical_record,1,1,1,1
+access_question_user,access question,model_question,group_medical_record,1,1,1,1
+access_inmunization_user,access inmunization,model_immunizations,group_medical_record,1,1,1,1
+access_family_emergency_user,access family emergency,model_family_emergency,group_medical_record,1,1,1,1
+access_vaccine_user,access vaccine,model_vaccine,group_medical_record,1,1,1,1
+access_hr_word_experience_user,access word experience,model_hr_word_experience,group_medical_record,1,1,1,1
+access_detail_exam_user,access detail exam,model_detail_exam,group_medical_record,1,1,1,1

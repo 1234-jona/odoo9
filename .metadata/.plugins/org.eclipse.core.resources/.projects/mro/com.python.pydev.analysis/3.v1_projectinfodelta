@@ -1,0 +1,9 @@
+INSTUPmro.wizard.convert_order
+/home/jonathan/Documentos/workspace/odoo9/mro/mro/wizard/convert_order.py
+INFOS:&&1|1|2|0|3|25|7&&3|4|2|1|3|26|5&&3|5|2|1|3|27|5&&2|6|2|1|3|29|9
+mro.wizard.convert_order=2
+/home/jonathan/Documentos/workspace/odoo9/mro/mro/wizard/convert_order.py=3
+_name=4
+convert_order=6
+_description=5
+mro_convert_order=1

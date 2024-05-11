@@ -1,0 +1,50 @@
+<openerp>
+  <data>
+    <record id="res_partner_inherit_dimabru_contacts" model="ir.ui.view">
+    	<field name="name">partner.form.extension</field>
+    	<field name="model">res.partner</field>
+    	<field name="inherit_id" ref="base.view_partner_form"/>
+    	<field name="arch" type="xml">
+            <xpath expr="//page[@name='sales_purchases']" position="after">
+                <page name="acuerdo_comercial" string="Customer">
+                    <group string="Trade agreements">
+                    	<field name="check_push"/>
+                        <field name="type_agreement"/>
+                        <field name="start_date"/>
+                        <field name="end_date"/>
+                        <field name="contract"/>
+                        <field name="description"/>
+                        <field name="state"/>
+                        <field name="type_document"/>
+                        <field name="date_document"/>
+                        <field name="document"/>
+                        <field name="document_description"/>
+                    </group>
+                    <group string="Client Documentation">
+                    	<field name="state"/>
+                        <field name="check_push"/>
+                        <field name="type_document"/>
+                        <field name="date_document"/>
+                        <field name="document"/>
+                        <field name="document_description"/>
+                    </group>
+                    <group string="Furniture" >
+	                    <field name="furniture_ids" nolabel="1">
+	    					<tree editable="button">
+	        					<field name="type"/>
+	        					<field name="delivery_date"/>
+	        					<field name="amount"/>
+	        					<field name="retirement_date"/>
+	        					<field name="state_furniture"/>
+	        					<field name="description"/>
+	        					<field name="photo"/>
+	    					</tree>
+						</field>
+                    </group>
+                </page>
+            </xpath>
+    	</field>
+	</record>
+    
+  </data>
+</openerp>

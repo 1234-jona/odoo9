@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+    
+        <record id="wizard_sale_pdf_to_csv" model="ir.ui.view">
+            <field name="name">wizard.sale.pdf.to.csv</field>
+            <field name="model">sale.pdf.to.csv.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Upload PDF file">
+                    <sheet>
+                        <div>
+                            <p class="oe_grey">
+                                Select the PDF file type
+                            </p>
+                        </div>
+                        <separator/>
+                        <group col="2">
+                            <field name="pdf_file"></field>
+                        </group>
+                    </sheet>
+                    <footer>
+                        <button icon="gtk-execute" name="convert_pdf" string="Convert to CSV" type="object"/>
+                        <button icon="gtk-cancel" name="act_cancel" special="cancel" string="Cancel" type="object"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_wizard_sale_pdf_to_csv" model="ir.actions.act_window">
+            <field name="name">PDF a CSV</field>
+            <field name="res_model">sale.pdf.to.csv.wizard</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_sale_pdf_to_csv"/>
+            <field name="context">{}</field>
+            <field name="target">new</field>
+        </record>
+        
+    </data>
+</openerp>

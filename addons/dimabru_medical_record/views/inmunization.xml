@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="immunizations_tree_view" model="ir.ui.view">
+            <field name="name">immunizations.tree</field>
+            <field name="model">immunizations</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="number_doses"/>
+                    <field name="date"/>
+                    <field name="description"/>
+                    <field name="vaccine_id"/>
+                </tree>
+            </field>
+        </record>
+
+       
+        <record id="immunizations_form_view" model="ir.ui.view">
+            <field name="name">immunizations.form</field>
+            <field name="model">immunizations</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="number_doses"/>
+                            <field name="date"/>
+                    		<field name="vaccine_id"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+  
+        <record id="immunizations_action" model="ir.actions.act_window">
+            <field name="name">Immunizations</field>
+            <field name="res_model">immunizations</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        
+    </data>
+</odoo>

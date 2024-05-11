@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="family_emergency_tree_view" model="ir.ui.view">
+            <field name="name">family.emergency.tree</field>
+            <field name="model">family.emergency</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="family_name"/>
+                    <field name="relationship"/>
+                    <field name="phone"/>
+                </tree>
+            </field>
+        </record>
+
+        
+        <record id="family_emergency_form_view" model="ir.ui.view">
+            <field name="name">family.emergency.form</field>
+            <field name="model">family.emergency</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="family_name"/>
+                            <field name="relationship"/>
+                            <field name="phone"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+       
+        <record id="family_emergency_action" model="ir.actions.act_window">
+            <field name="name">Family Emergency</field>
+            <field name="res_model">family.emergency</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+      
+    </data>
+</odoo>

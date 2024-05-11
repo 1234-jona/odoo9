@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="detail_exam_tree_view" model="ir.ui.view">
+            <field name="name">detail.exam.tree</field>
+            <field name="model">detail.exam</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="date"/>
+                    <field name="result"/>
+                </tree>
+            </field>
+        </record>
+
+        
+        <record id="detail_exam_form_view" model="ir.ui.view">
+            <field name="name">detail.exam.form</field>
+            <field name="model">detail.exam</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="date"/>
+                            <field name="result"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+       
+        <record id="detail_exam_action" model="ir.actions.act_window">
+            <field name="name">Detail Exam</field>
+            <field name="res_model">detail.exam</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+       
+    </data>
+</odoo>

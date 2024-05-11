@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+
+        <record id="view_section_tree" model="ir.ui.view">
+            <field name="name">section.tree</field>
+            <field name="model">section</field>
+            <field name="arch" type="xml">
+                 <tree string="Sections">
+                    <field name="name"/>
+                    <field name="description"/>
+                    <field name="question_ids"/>
+                    <field name="active"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_section_form" model="ir.ui.view">
+            <field name="name">section.form</field>
+            <field name="model">section</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+		                    <field name="description"/>
+		                    <field name="question_ids"/>
+		                    <field name="active"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_section_list" model="ir.actions.act_window">
+            <field name="name">Section</field>
+            <field name="res_model">section</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        
+        
+       
+    </data>
+</odoo>
